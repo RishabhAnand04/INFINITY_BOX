@@ -1,4 +1,66 @@
 
+# Infinity Box
+
+An expressJS application, which is a REST API
+
+● User logins using a username and password
+
+● Create a user account using username / password
+
+● Discard the JWT Token used for logging in to the system
+
+● Upload a new task to fetch latest tweets for the hashtag - #Bangalore
+
+● List out all the tasks which were executed successfully/scheduled to be queued, and
+provide the metadata, such as how much time did it take to execute, status code, number of tweets
+fetched. Ignore for tasks, which are not completed
+
+● List out the tasks which are completed. Same as /tasks/listTask but shows only
+completed tasks.
+## Prerequisites
+
+● Twitter API Essential Access [(sign up here)](https://t.co/signup)
+
+● A Project and an App created in the [dashboard](https://developer.twitter.com/en/portal/dashboard)
+
+## JavaScript (Node.js) environment set up
+```bash
+  npm install bcrypt
+```
+```bash
+  npm install express
+```
+```bash
+  npm install passport
+```
+```bash
+  npm install passport-jwt
+```
+```bash
+  npm install jsonwebtoken
+```
+```bash
+  npm install mongoose
+```
+
+```bash
+  npm install needle
+```
+
+
+## API Reference
+
+#### Get all items
+
+
+| Key | Value     | Description                |
+| :-------- | :------- | :------------------------- |
+| `query` | `#Bangalore` | each query to submit to the recent search endpoint |
+
+
+
+
+
 ## Running the Project
 ● Start the server
 ```bash
