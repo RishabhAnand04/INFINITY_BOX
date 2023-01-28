@@ -109,7 +109,7 @@ in the params section add two key value pairs
 
 Result will be displayed in the Terminal
 
-
+This project helped me in creating, understanding the working and testing of twitter API.
 
 
 
